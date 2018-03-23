@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ol,ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.fix{
+    overflow: hidden;
+}
+.pd0{
+    padding: 0px;
+}
+.registration-area{
+    width: 100%;
+    overflow: hidden;
+    background: seagreen;
+    padding-bottom: 10px;
+    
+}
+.login-area{
+    width: 100%;
+    overflow: hidden;
+    background: seagreen;
+    padding-bottom: 10px;
+    
+}
+.registration{
+    width: 70%;
+    background-color:#fff;
+    margin: 0px auto;
+    padding: 30px;
+    margin-top: 30px;
+
+}
+.login{
+    width: 70%;
+    background-color:#fff;
+    margin: 0px auto;
+    padding: 30px;
+    margin-top: 30px;
+
+}
+input[type=text],input[type=password]{
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #ccc;
+}
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+.cancelbtn{
+    background-color: #f44336;
+    padding: 14px 20px;
+}
+button:hover{
+    opacity: 1;
+}
+#back-top {
+    position: fixed;
+    bottom: -20px;
+    right: 0px;
+}
+#back-top a {
+    width: 70px;
+    display: block;
+    text-align: center;
+    font: 11px/100% Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #bbb;
+    /* background color transition */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+/* arrow icon (span tag) */
+#back-top span {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin-bottom: 7px;
+    background: #bbb url(../images/up-arrow.png) no-repeat center center;
+    /* rounded corners */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    /* background color transition */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+#back-top a:hover span {
+    background-color: #C62139;
+}
